@@ -17,8 +17,8 @@ import math
 # ===== main =====
 if __name__ =="__main__":
     
-    real=random.randrange(10,50)
-    imag=random.randrange(10,50)
+    real=random.uniform(10,50)
+    imag=random.uniform(10,50)
     com=complex(real,imag)
 
     mod = math.sqrt(real**2+imag**2)
